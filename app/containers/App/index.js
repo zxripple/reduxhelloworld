@@ -20,6 +20,7 @@ export default class App extends React.PureComponent { // eslint-disable-line re
   };
 
   render() {
+    console.log('in app')
     return (
       <div>
         {React.Children.toArray(this.props.children)}
